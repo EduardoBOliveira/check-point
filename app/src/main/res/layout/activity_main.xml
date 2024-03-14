@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pesoideal"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="496dp"
+        android:hint="Digite sua altura:"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="568dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioMasc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MASCULINO"
+            android:textColor="#E4D2D2"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioFem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEMININO"
+            android:textColor="#DACBCB"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="432dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="677dp"
+        android:text="Sexo"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
